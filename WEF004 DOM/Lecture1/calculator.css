@@ -1,0 +1,38 @@
+div.calculatorSurface {
+  width: 400px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+div#display {
+  background-color: wheat;
+  width: 380px;
+  height: 30px;
+}
+div#panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#panelContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+}
+div#panelContainer > button {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.func {
+  background-color: yellow;
+}

@@ -1,0 +1,19 @@
+.numBox {
+  height: 100px;
+  width: 100px;
+  background-color: #d5e5fa;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: blue;
+  border-width: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 370px;
+  max-height: 370px;
+}

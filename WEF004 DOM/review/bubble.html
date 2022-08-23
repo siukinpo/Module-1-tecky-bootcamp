@@ -1,0 +1,16 @@
+<div id="human">
+    human
+    <div id="head">
+        head
+        <div class="eye">left eye</div>
+        <div class="eye">right eye</div>
+    </div>
+</div>
+
+<script>
+    let element = document.querySelector(".eye")
+    element.addEventListener(click, () => {
+        console.log("clicked", event.target)
+        console.log("seen from", event.currentTarget)
+    })
+</script>

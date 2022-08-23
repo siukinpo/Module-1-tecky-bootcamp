@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1: 9 Squares</title>
+    <style>
+        body {
+            margin: 1rem;
+        }
+
+        .box {
+            margin: 5px;
+            width: 180px;
+            height: 180px;
+            max-height: calc((100vw - (1rem * 2 + 5px * 6))/3);
+            outline: 1px solid 6c8ebf;
+            background-color: #dae8fc;
+            margin: 5px;
+
+            /* display: table-cell;
+            vertical-align: middle; 
+            text-align: center*/
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .line {
+            width: 100%
+        }
+
+        .row {
+            display: flex
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
+        <div class="row">
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <div class="row">
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+        </div>
+    </div>
+</body>
+
+</html>

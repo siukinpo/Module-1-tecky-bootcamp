@@ -1,0 +1,55 @@
+div.rectangle {
+  width: 80%;
+  height: 300px;
+  background-color: skyblue;
+
+  box-shadow: 9px 11px 15px 4px grey;
+  /* 網上面有CSS generators，睇翻notion */
+}
+
+div.bordered-box {
+  background-color: lightgreen;
+  height: 300px;
+  width: 80%;
+
+  /* border-width: 40px 30px 20px 10px;
+  border-style: dashed;
+  border-color: black;
+
+  border-top-color: yellow;
+  border-right-color: red;
+  border-bottom-color: blue;
+  border-left-color: green; */
+}
+
+div.item {
+  margin: 40px 40px 40px 40px;
+  margin-bottom: 40px;
+}
+
+div.padding-box {
+  width: 80%;
+  height: 300px;
+  /* padding: 5px 5px 5px 5px; */
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: lightgreen;
+}
+
+div.text {
+  color: red;
+  font-style: italic;
+  text-decoration: underline line-through overline;
+  font-size: 40px;
+  /* display: block none flex grid; */
+}
+
+@media only screen and (max-width: 768px) {
+  div.padding-box {
+    width: 250px;
+  }
+}
+
+div {
+  background-color: red !important;
+}

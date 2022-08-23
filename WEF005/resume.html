@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./resume.css">
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        .nav-item {
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+        }
+
+        div#navigation {
+            position: sticky;
+            top: 0px;
+            background-color: lightgreen;
+            height: 8vh;
+
+        }
+
+        div.container {
+            z-index: 1;
+        }
+
+        div#intro {
+            /* overflow-y: scroll; */
+            height: 100vh;
+            z-index: 10;
+        }
+
+        div#footer {
+            position: fixed;
+            bottom: 0px;
+            background-color: lightgray;
+            width: 100vw;
+            z-index: -1;
+
+        }
+
+        div#model {
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+            z-index: 20;
+            opacity: 0.5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            z-index: 10;
+        }
+
+        div#box {
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="model">
+            <div id="box">
+                <span>你最近還好嗎？</span>
+                <button id="close" class="nav-item">Close</button>
+            </div>
+            <div>
+            </div>
+        </div>
+        <div id="navigation">
+            <button id="show" class="nav-item">Show Model Box</button>
+        </div>
+
+        <div id="intro">
+            <div class="grid">
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+            </div>
+            <div class="grid">
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+            </div>
+            <div class="grid">
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+            </div>
+        </div>
+        <div id="education">Education</div>
+        <div id="footer">Footer</div>
+
+    </div>
+    <script src="./resume.js"></script>
+</body>
+
+</html>

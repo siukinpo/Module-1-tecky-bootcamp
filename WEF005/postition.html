@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <title>WSP005 - Position</title>
+    <style>
+        div.grid {
+            display: flex;
+            flex-wrap: wrap;
+            width: 20vh;
+        }
+
+        div.grid>div {
+            width: 2vh;
+            height: 2vh;
+            background-color: wheat;
+            padding: 1vh 1vh 1vh 1vh;
+            margin: 1vh 1vh 1vh 1vh;
+        }
+
+        div.position-absolute {
+            position: absolute;
+            /* 睇下郁幾多px（距離） */
+            background-color: skyblue;
+            width: 100px;
+            height: 100px;
+            /* top: 50px; */
+        }
+
+        div.position-relative {
+            position: relative;
+            top: 60;
+
+
+            background-color: lightgreen;
+            width: 100px;
+            height: 100px;
+        }
+
+        div.subDiv {
+            position: absolute;
+            background-color: yellow;
+            width: 80px;
+            height: 30px;
+            top: 10px;
+            right: 10px;
+        }
+
+
+        div.position-fixed {
+            position: fixed;
+            background-color: pink;
+            width: 100px;
+            height: 100px;
+            top: 50vh;
+            left: 20vh;
+        }
+
+        div.position-sticky {
+            position: sticky;
+            background-color: lightgray;
+            top: 0px;
+            /* 意思係唔可以少於呢個數 */
+        }
+    </style>
+</head>
+
+<body>
+    <p>title</p>
+    <div class="position-sticky">
+        Position Sticky
+    </div>
+    <div class="position-fixed">
+        Position Fixed
+    </div>
+    <div class="position-relative">
+        position relative
+        <div class="subDiv">Sub DIV</div>
+    </div>
+
+    <div class="container">
+        <div class="grid">
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+        </div>
+        <div class="grid">
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+        </div>
+        <div class="grid">
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+        </div>
+        <div class="grid">
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+        </div>
+    </div>
+    <div class="position-absolute">
+        Absolute Position
+    </div>
+
+</body>
+
+</html>

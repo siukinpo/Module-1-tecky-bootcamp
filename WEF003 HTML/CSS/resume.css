@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+.section {
+  border: 3px dashed green;
+}
+
+#title {
+  color: white;
+}
+
+[title='Tecky.io'] {
+  width: 100%;
+}
+
+div.section {
+  color: blue;
+}
+
+ul.skill > li.item {
+  font-size: 20px;
+  color: white;
+}
+p.content:hover {
+  background: red;
+}
+.contentBox {
+  margin: 10px;
+  padding: 20px;
+  width: 500px;
+  border: solid 20px #000;
+  height: 50px;
+  background: #f00;
+}
+.borderBox {
+  margin: 10px;
+  padding: 20px;
+  width: 500px;
+  border: solid 20px #000;
+  height: 50px;
+  background: #f00;
+  box-sizing: border-box;
+}
